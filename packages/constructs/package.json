@@ -1,0 +1,35 @@
+{
+  "name": "@repro-cdktn/constructs",
+  "version": "1.0.0",
+  "main": "main.js",
+  "types": "main.ts",
+  "license": "MPL-2.0",
+  "private": true,
+  "scripts": {
+    "get": "cdktn get",
+    "build": "tsc",
+    "synth": "cdktn synth",
+    "compile": "tsc --pretty",
+    "watch": "tsc -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "upgrade": "npm i cdktn@latest cdktn-cli@latest",
+    "upgrade:next": "npm i cdktn@next cdktn-cli@next"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@cdktn/provider-archive": "^13.1.0",
+    "cdktn": "^0.23.3",
+    "constructs": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

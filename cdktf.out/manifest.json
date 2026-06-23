@@ -1,0 +1,14 @@
+{
+  "stacks": {
+    "cdktn-init": {
+      "annotations": [],
+      "constructPath": "cdktn-init",
+      "dependencies": [],
+      "name": "cdktn-init",
+      "stackMetadataPath": "stacks/cdktn-init/metadata.json",
+      "synthesizedStackPath": "stacks/cdktn-init/cdk.tf.json",
+      "workingDirectory": "stacks/cdktn-init"
+    }
+  },
+  "version": "0.23.3"
+}

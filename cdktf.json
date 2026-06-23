@@ -1,0 +1,9 @@
+{
+  "language": "typescript",
+  "app": "cd ./packages/constructs && ts-node ./main",
+  "projectId": "4c4c7064-2cba-4873-8f2f-a49692b43b92",
+  "sendCrashReports": "true",
+  "terraformProviders": [],
+  "terraformModules": [],
+  "context": {}
+}
